@@ -2,8 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using TestTask.Data;
 using TestTask.Enums;
 using TestTask.Models;
+using TestTask.Services.Interfaces;
 
-namespace TestTask.Services.Interfaces;
+namespace TestTask.Services.Implementations;
 
 public class UserService : IUserService
 {

@@ -3,7 +3,7 @@ using TestTask.Data;
 using TestTask.Models;
 using TestTask.Services.Interfaces;
 
-namespace TestTask.Services;
+namespace TestTask.Services.Implementations;
 
 public class OrderService : IOrderService
 {
